@@ -1,0 +1,36 @@
+site_name: Rizwan's Blog
+theme:
+  name: material
+  features:
+    - header.autohide
+
+plugins:
+- gitsnippet
+
+nav:
+  - 'Home': index.md
+  - 'SRE as a Practice':
+    - 'Service Interruptions': 'interruptions/service_interruptions.md'
+    - 'Engagements': engagements/engagments.md
+    - 'Recommended Reading': reading/index.md
+    - 'SRE Roadmap': sre/roadmap.md
+  - 'Software Engineering': 
+    - 'Engineering': development/product_engineering.md
+    - 'Tools':
+      - 'NodeJS':
+        - 'Express Prometheus': 'development/tools/nodejs/express-prometheus.md'
+      - 'Golang':
+        - 'DynaCTL': 'development/tools/golang/dynactl.md'
+    - 'Products': 'development/products/index.md'
+      - 'Ouroboros': 'development/products/ouroboros.md'
+
+  - 'Resilience Engineering':
+    - 'Resilience Engineering': resilience/resilience_engineering.md
+  - 'Observability':
+    - 'Observability Stack': observability-stack/index.md
+    - 'Get Started': observability-stack/get-started.md
+    - 'Deployment': observability-stack/deployment.md
+    - 'Tech Stack': observability-stack/tech-stack.md
+    - 'Development History': observability-stack/development-history.md
+    - 'Lessons Learned': observability-stack/lessons-learnt.md
+    - 'Up Next': observability-stack/up-next.md
